@@ -1,3 +1,42 @@
+@font-face {
+    font-family: 'Raleway Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Raleway Bold'), local('Raleway-Bold'),
+        url(http://allfont.ru/cache/fonts/raleway-bold_b78dbdb8527d337fa2363166b11e2ee7.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/raleway-bold_b78dbdb8527d337fa2363166b11e2ee7.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Raleway Regular';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway Regular'), local('Raleway-Regular'),
+        url(http://allfont.ru/cache/fonts/raleway-regular_180999bdf4e0628710f03129fd5467e7.woff) format('woff'),
+        url(http://allfont.ru/cache/fonts/raleway-regular_180999bdf4e0628710f03129fd5467e7.ttf) format('truetype');
+}
+
 body {
+    margin: 0;
+    padding: 0;
     background: #777777;
+}
+
+li {
+    list-style: none;
+}
+
+.page-header {
+    background: white;
+}
+
+.main-nav a {
+    font-family: "Raleway Regular";
+    font-size: 14px;    
+    text-decoration: none;
+    
+}
+
+.main-nav a:hover {
+    font-family: "Raleway Bold";
 }
